@@ -21,8 +21,8 @@ const pacifico = Pacifico({
 
 // ----------- Metadata -----------
 export const metadata: Metadata = {
-  title: "Jayanshu Kikani",
-  description: "Front-End Developer",
+  title: "JAYANSHU KIKANI PORTFOLIO",
+  description: "Portfolio of JAYANSHU KIKANI",
 };
 
 // ----------- RootLayout -----------
