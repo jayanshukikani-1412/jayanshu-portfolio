@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import { Raleway } from "next/font/google";
 import { Pacifico } from "next/font/google";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/next';
 
 // ----------- Poppins &&& Raleway && Pacifico fonts -----------
 const poppins = Poppins({
@@ -35,6 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.variable} ${raleway.variable} ${pacifico.variable}`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
